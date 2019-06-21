@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Friends Survey</title>
+	<link rel="stylesheet" type="text/css" href="HomeworkPage_CSS.css">
+</head>
+
+  <body>
+
+    <div id="outside">
+  <form id="survey-form"> 
+    <fieldset>
+      <div class="opening">
+    <h1 id="title">Survey Form</h1> 
+    <p id="description">Let see if you are a real Friends fan!</p>
+      </div>
+    
+<!-- ------------------Personal Details---------------------------- -->
+    
+<fieldset class="one">
+  <p><strong>Personal Details</strong></p>
+  <div>
+    <label id="name-label" for="name">First Name:</label>
+    <input type="text" required id="name" name="user_name" placeholder="Enter first name here"
+  </div>
+  <div>
+    <label for="lastname-label">Last Name:</label>
+    <input type="text" required id="lastname" name="user_name" placeholder="Enter last name here"
+  </div>
+  <div>
+    <label id="email-label" for="email-label">Email:</label>
+    <input type="email" required id="email" name="user_email" placeholder="Enter address here"
+  </div>
+  <div>
+    <label id="number-label" for="number-label">Age:</label>
+    <input type="number" required id="number" name="user_age" placeholder="Enter age here" min=10 max=100
+  </div>
+  
+    
+     <!-- ------------------Radio Buttons-------------------------------- -->
+    
+  <div>
+    <label for="often">How often you watch friends</label>
+    <p>
+      <input type="radio" name="often" value="Everyday" checked>Everyday<br>
+      <input type="radio" name="often" value="twice">Twice a week<br>
+      <input type="radio" name="often" value="once">Once in a month<br>
+      <input type="radio" name="often" value="rare">What is Friends?<br>
+    </p>
+    </div>
+    </fieldset>
+  <!-- ------------------Checkboxes-------------------------------- -->
+  <fieldset>
+    
+    <label for="often">Lets test your knowledge.(Check all that apply)</label>
+    <p>Please select all the characters from the movie:</p>
+     <input type="checkbox" name="ross" value="ross">Ross<br>
+       <input type="checkbox" name="chandler" value="chandler">Chandler<br>
+        <input type="checkbox" name="simon" value="simon">Simon<br>
+        <input type="checkbox" name="monica" value="monica">Monica<br>
+        <input type="checkbox" name="gabriela" value="gabriela">Gabriela<br>
+        <input type="checkbox" name="rachel" value="rachel">Rachel<br>
+        <input type="checkbox" name="joey" value="joey">Joey<br>
+        <input type="checkbox" name="phoebe" value="phoebe">Phoebe<br>
+  
+    <p></p>
+    </fieldset>
+        
+      <!-- -----------------Dropdown menus--------------------------------- -->
+    <fieldset>
+      <div>Quiz<br>
+        <label for="quiz">What is Joey's favourite pickup line?</label>
+        <select id="dropdown">
+          <option value="doen">How you doen</option>
+          <option value="sup">What's up</option>
+        </select><br>
+        
+        <label for="quiztwo">What is Chandler Bing's job?</label>
+        <select id="dropdown">
+          <option value="doen">IT Procurement Manager</option>
+          <option value="sup">Transponster</option>
+        </select><br>
+
+        <label for="quiz3">What is the name of Ross and Rachel's daughter?</label>
+        <select id="dropdown">
+          <option value="doen">Ela</option>
+          <option value="sup">Ema</option>
+        </select><br>
+
+        <label for="quiz">What friend was famously overweight as a child?</label>
+        <select id="dropdown">
+          <option value="doen">Ross</option>
+          <option value="sup">Monika</option>
+        </select><br>
+
+      </div>
+      </fieldset>
+    
+      <!-- --------------------Text Areas------------------------------ -->
+  
+    <fieldset>
+      <legend>Section</legend>
+      <div>
+        <label for="msg"></label>
+        <p>In 50 words or more explain why you like the movie</p>
+        <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter text here"></textarea> 
+      </div>
+    
+    <div id="submitbutton">
+         <button type="submit" id="submit">Send your application </button>   
+    </div>
+
+    <div class="footer">
+    <a id="footerlink" href="https://en.wikipedia.org/wiki/Friends" target="_blank"> Click here for more information about Friends</a>
+</div>
+ 
+    </fieldset>
+    </form>   
+  
+
+
+  
+ </body>
+</html>
