@@ -80,9 +80,10 @@ span.psw {
    background-image: url("https://i.pinimg.com/originals/0e/1c/2c/0e1c2c8034f7eace62380e9414beeda1.png");
   background-repeat: no-repeat;
   background-size: 150px;
-  background-color: yellow;
+  background-color: lightgreen;
    background-position: 5% 50%; 
    border-width: 1px;
+   border-style: ridge;
 }
 
 #outside {
@@ -196,5 +197,5 @@ button {
 }
 
 #footer {
-  color: black;
+  background-color: black;
 }
